@@ -1,5 +1,6 @@
 # Chem-FINESE: Validating Fine-Grained Few-shot Entity Extraction through Text Reconstruction
 
+[Chem-FINESE: Validating Fine-Grained Few-shot Entity Extraction through Text Reconstruction](https://arxiv.org/pdf/2401.10189.pdf)
 
 Accepted by Findings of the Association for Computational Linguistics: EACL 2024
 
