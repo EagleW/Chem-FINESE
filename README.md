@@ -64,10 +64,11 @@ python -m nltk.downloader punkt
 
 ### Data Description
 
+This repositiory contains two chemical few-shot fine-grained entity extraction dataset based on ChemNER and CHEMET.
+We choose the values $6, 9, 12, 15, 18$ as the potential maximum entity mentions for k-shot for both datasets. 
 `annotation` folder contains annotation guidelines and fine-grained entity ontology.
 `CHEMET` folder contains full CHEMET dataset and its few-shot subsets. Each folder contains four files: `train.json`, `valid.json`, `test.json`, and `types.json`.
 `ChemNER+` folder contains full ChemNER+ dataset and its few-shot subsets. Each folder contains four files: `train.json`, `valid.json`, `test.json`, and `types.json`.
-We choose the values $6, 9, 12, 15, 18$ as the potential maximum entity mentions for k-shot for both datasets. 
 `train.json`, `valid.json`, `test.json` are used for training, validation, and testing respectively. Each file contains multiple lines. Each line represent an instance. The schema for each instance is listed below:
 
 ```python
