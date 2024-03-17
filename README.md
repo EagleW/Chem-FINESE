@@ -112,18 +112,24 @@ bash test_cl.sh
 ## Citation
 
 ```bib
-@inproceedings{wang-etal-2024-Chem-finse,
-    title = "Chem-FINESE: Validating Fine-Grained Few-shot Entity Extraction through Text Reconstruction",
+@inproceedings{wang-etal-2024-chem,
+    title = "Chem-{FINESE}: Validating Fine-Grained Few-shot Entity Extraction through Text Reconstruction",
     author = "Wang, Qingyun  and
       Zhang, Zixuan  and
       Li, Hongxiang  and
       Liu, Xuan  and
-      Han, Jiawei Han  and
-      Ji, Heng  and
-      Zhao, Huimin",
+      Han, Jiawei  and
+      Zhao, Huimin  and
+      Ji, Heng",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
     booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
     month = mar,
     year = "2024",
+    address = "St. Julian{'}s, Malta",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.1",
+    pages = "1--16",
+    abstract = "Fine-grained few-shot entity extraction in the chemical domain faces two unique challenges. First, compared with entity extraction tasks in the general domain, sentences from chemical papers usually contain more entities. Moreover, entity extraction models usually have difficulty extracting entities of long-tailed types. In this paper, we propose Chem-FINESE, a novel sequence-to-sequence (seq2seq) based few-shot entity extraction approach, to address these two challenges. Our Chem-FINESE has two components: a seq2seq entity extractor to extract named entities from the input sentence and a seq2seq self-validation module to reconstruct the original input sentence from extracted entities. Inspired by the fact that a good entity extraction system needs to extract entities faithfully, our new self-validation module leverages entity extraction results to reconstruct the original input sentence. Besides, we design a new contrastive loss to reduce excessive copying during the extraction process. Finally, we release ChemNER+, a new fine-grained chemical entity extraction dataset that is annotated by domain experts with the ChemNER schema. Experiments in few-shot settings with both ChemNER+ and CHEMET datasets show that our newly proposed framework has contributed up to 8.26{\%} and 6.84{\%} absolute F1-score gains respectively.",
 }
 ```
